@@ -50,8 +50,18 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="PlaneHasOpenSeatsSpecificationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Specification.Base.Library\Specification.Base.Library.csproj">
+      <Project>{A6171D7E-A7A7-4279-A29C-7430EFECAD26}</Project>
+      <Name>Specification.Base.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Specification.Logic.Library\Specification.Logic.Library.csproj">
+      <Project>{7A262FA3-EE56-4CF8-8A9D-095E853FB742}</Project>
+      <Name>Specification.Logic.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

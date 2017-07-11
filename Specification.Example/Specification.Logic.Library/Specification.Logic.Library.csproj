@@ -40,7 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Airplane.cs" />
+    <Compile Include="Models\Seat.cs" />
+    <Compile Include="PlaneHasOpenSeatsSpecification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Specification.Base.Library\Specification.Base.Library.csproj">
+      <Project>{a6171d7e-a7a7-4279-a29c-7430efecad26}</Project>
+      <Name>Specification.Base.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
