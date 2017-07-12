@@ -41,7 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Airplane.cs" />
+    <Compile Include="Models\Passenger.cs" />
     <Compile Include="Models\Seat.cs" />
+    <Compile Include="PassengerIsAChildLivingInBcnSpecification.cs" />
+    <Compile Include="PassengerIsAChildSpecification.cs" />
     <Compile Include="PlaneHasOpenSeatsSpecification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
